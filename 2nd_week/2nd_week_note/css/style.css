@@ -1,0 +1,20 @@
+body {
+    background-color: #4799ff;
+    font-family: helvetica, arial, sans-serif; /* font-family: "times new roman", times, serif;(this is a comment) */
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+}
+
+.special {
+    color: yellow;
+}
+
+#last {
+    color: #555000;
+    background-color: #000555;
+}
