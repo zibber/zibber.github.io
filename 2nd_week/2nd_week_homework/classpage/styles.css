@@ -1,10 +1,10 @@
 body {
-    font-family: "Comic Sans MS", sans-serif;
-    background-color: #9ce5de;
+    font-family: futura, "Comic Sans MS", sans-serif;
+    background-color: white;
 }
 
 a {
-    color: red;
+    color: gray;
     text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ a:visited {/* you already read */
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: fixed;
 }
 
 li {
@@ -33,17 +33,21 @@ li {
     padding: 0;
 }
 
-. sidebar { 
+.sidebar { 
     font-family: helvetica, sans-serif ;
-    font-size: ;
-    position: ;
-    background-color: ;
-    color: ;
-    width: ;
-    height: ;
-    top: ;
-    left:;
-    box-shadow: ;
-    border-radius: ;
+    font-size: 16px;
+    position: fixed;
+    background-color: #1C2F44;
+    color: #B9C0C9;
+    width: 175px;
+    height: 485px;
+    top: 20px;
+    left:20px;
+    box-shadow: 3px 3px 8px .5px;
+    border-radius: 1em 0em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 0em;
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 0em;
 }
     
