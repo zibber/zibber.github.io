@@ -1,6 +1,8 @@
 body {
     font-family: futura, "Comic Sans MS", sans-serif;
     background-color: white;
+    margin: 0 auto;
+    padding: 0px;
 }
 
 a {
@@ -39,8 +41,8 @@ li {
     position: fixed;
     background-color: #1C2F44;
     color: #B9C0C9;
-    width: 175px;
-    height: 485px;
+    width: 260px;
+    height: 700px;
     top: 20px;
     left:20px;
     box-shadow: 3px 3px 8px .5px;
@@ -50,4 +52,16 @@ li {
         border-bottom-right-radius: 1em;
         border-bottom-left-radius: 0em;
 }
-    
+
+.content_container {
+    left: 340px;
+    position: fixed;
+}
+.container_sidebar-sticky {
+    left: 20px;
+}    
+h1 {
+    display: block;
+    font-size: 2em;
+    webkit-margin-before: 0.67 
+}
