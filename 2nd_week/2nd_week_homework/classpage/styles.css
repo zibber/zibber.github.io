@@ -1,9 +1,6 @@
 body {
     font-family: "Comic Sans MS", sans-serif;
-    background-color: yellow;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+    background-color: #9ce5de;
 }
 
 a {
@@ -36,3 +33,17 @@ li {
     padding: 0;
 }
 
+. sidebar { 
+    font-family: helvetica, sans-serif ;
+    font-size: ;
+    position: ;
+    background-color: ;
+    color: ;
+    width: ;
+    height: ;
+    top: ;
+    left:;
+    box-shadow: ;
+    border-radius: ;
+}
+    
