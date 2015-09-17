@@ -1,3 +1,5 @@
+
+
 h1 {
     display: block;
     font-size: 2em;
@@ -14,7 +16,7 @@ h2 {
 }
 
 body {
-    font-family: futura, "Comic Sans MS", sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     background-color: #d38e5f;
     margin: 0 auto;
     padding: 0px;
@@ -90,18 +92,21 @@ li {
     font-family: helvetica, sans-serif ;
     font-size: 16px;
     position: static;
-    padding-left: -20px; background-color: #1C2F44;
-    color: #B9C0C9;
+    padding-left: -20px; 
+    background-color: #421C1C;
+    color: #75818E;
     width: 260px; 
     height: 700px;
     left:20px;
-    top: 70px;
+    top: 65px;
     box-shadow: 3px 3px 8px .5px;
     border-radius: 1em 0em;
         border-top-left-radius: 0.5em;
         border-top-right-radius: 0.5em;
         border-bottom-right-radius: 0.5em;
         border-bottom-left-radius: 0.5em;
+    border-color: yellow;
+    border-width: 15px;    
     padding: 1px;
     opacity: 1;
     -webkit-transition: all 0.5s ease-in-out;
@@ -121,7 +126,7 @@ li {
     width: 780px;
     height: 1400px;
     top: 70px;
-    left:70px;
+    left: 70px;
     box-shadow: 3px 3px 8px .5px;
     border-radius: 1em 0em;
         border-top-left-radius: 0em;
@@ -171,7 +176,11 @@ small {
     position: fixed;
     border-color: white;
     background-color: white;
-    top: 0;
-    left: 10px;
-    width: 780px;
+    top: -30px;
+    left: -30px;
+    padding-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 900px;
+    box-shadow: 3px 3px 8px .5px;
 }
