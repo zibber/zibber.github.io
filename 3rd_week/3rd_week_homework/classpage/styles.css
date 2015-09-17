@@ -68,8 +68,8 @@ li {
     background-color: orange;
     color: #75818E;
     width: 20px;
-    height: 700px;
-    top: 20px;
+    height: 1400px;
+    top: 70px;
     left:20px;
     box-shadow: 3px 3px 8px .5px;
     border-radius: 1em 0em;
@@ -92,9 +92,10 @@ li {
     position: static;
     padding-left: -20px; background-color: #1C2F44;
     color: #B9C0C9;
-    width: /* 260px; */706px;
-    height: /* 700px; */657px:
+    width: 260px; 
+    height: 700px;
     left:20px;
+    top: 70px;
     box-shadow: 3px 3px 8px .5px;
     border-radius: 1em 0em;
         border-top-left-radius: 0.5em;
@@ -110,6 +111,7 @@ li {
 }
 
 .content_container {
+    overflow: scroll;
     z-index: -1;
     position: absolute;
     font-family: helvetica, sans-serif ;
@@ -118,7 +120,7 @@ li {
     color: #B9C0C9;
     width: 780px;
     height: 1400px;
-    top: 20px;
+    top: 70px;
     left:70px;
     box-shadow: 3px 3px 8px .5px;
     border-radius: 1em 0em;
@@ -163,4 +165,13 @@ p {
 
 small {
     font-size: 0px;
+}
+
+.post-title {
+    position: fixed;
+    border-color: white;
+    background-color: white;
+    top: 0;
+    left: 10px;
+    width: 780px;
 }
