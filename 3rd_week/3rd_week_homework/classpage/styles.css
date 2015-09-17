@@ -65,9 +65,9 @@ li {
     font-family: helvetica, sans-serif ;
     font-size: 0px;
     position: fixed;
-    background-color: #d38e5f;
+    background-color: orange;
     color: #75818E;
-    width: 260px;
+    width: 20px;
     height: 700px;
     top: 20px;
     left:20px;
@@ -86,13 +86,14 @@ li {
 }
 
 .sidebar div:hover{
+    z-index: 2;
     font-family: helvetica, sans-serif ;
     font-size: 16px;
-    position: relative;
+    position: static;
     padding-left: -20px; background-color: #1C2F44;
     color: #B9C0C9;
-    width: 260px;
-    height: 700px;
+    width: /* 260px; */706px;
+    height: /* 700px; */657px:
     left:20px;
     box-shadow: 3px 3px 8px .5px;
     border-radius: 1em 0em;
@@ -109,6 +110,7 @@ li {
 }
 
 .content_container {
+    z-index: -1;
     position: absolute;
     font-family: helvetica, sans-serif ;
     font-size: 16px;
@@ -117,7 +119,7 @@ li {
     width: 780px;
     height: 1400px;
     top: 20px;
-    left:300px;
+    left:70px;
     box-shadow: 3px 3px 8px .5px;
     border-radius: 1em 0em;
         border-top-left-radius: 0em;
@@ -157,4 +159,8 @@ p {
     color: green;
     font-size: 12px;
     line-height: 16px;
+}
+
+small {
+    font-size: 0px;
 }
