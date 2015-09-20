@@ -1,0 +1,50 @@
+.wrapper {
+    font-size:48px;
+    background-color: yellow;
+    width: 480px;
+    margin: 0 auto/* 0top and bottom, auto left and right(divide equally)*/;
+    overflow: hidden /* auto(just fit in), scoll(create a scroll bar to scoll), hidden(not show the scoll bar)*/ ;
+}
+
+body {
+    margin: 0;
+}
+
+.sprite {
+    background-image: url(../sprite.jpg ); /* ""../"" go back to one lvl*/
+    display: block;
+    height: 200px;
+    /* tile= repeat image */
+    width: 200px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap; /* make all the text in one line*/
+    text-indent: 100%; /* push it all the way over */
+    background-repeat; no-repeat; /*no tile */
+}
+
+.sprite:hover {
+    background-position: -200px 0 ; /* move the position */ 
+}
+
+.sprite:active{
+    background-position: -300px 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    top: 40px;
+    
+}
+
+.line {
+    width: 200px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}

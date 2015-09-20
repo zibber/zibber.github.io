@@ -11,7 +11,7 @@ h2 {
     margin-left: 5px;
     color: orange;
     margin: 10px;
-    margin-bottom: px;
+    margin-bottom: 0px;
     margin-top: 20px;
 }
 
@@ -48,7 +48,7 @@ a:active {/* mouse on click color */
 }
 
 a:visited {/* you already read */
-    color: ;
+    color: white;
 }
 
 ul {
@@ -66,44 +66,37 @@ li {
     font-family: helvetica, sans-serif ;
     font-size: 0px;
     position: fixed;
-    background-color: orange;
     color: #75818E;
-    width: 20px;
-    height: 1400px;
-    top: 70px;
-    left:20px;
-    box-shadow: 3px 3px 8px .5px;
-    border-radius: 1em 0em;
-        border-top-left-radius: 0.5em;
-        border-top-right-radius: 0.5em;
-        border-bottom-right-radius: 0.5em;
-        border-bottom-left-radius: 0.5em;
-    padding: 1px;
+    top: 80px;
+    left: -30px;
+    padding: 0px;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    
+    height: 60px;
+    width: 60px;
+    border-radius: 150px;
+    background-color: orange;
 }
 
 .sidebar div:hover{
     z-index: 2;
     font-family: helvetica, sans-serif ;
     font-size: 16px;
-    position: static;
-    padding-left: -20px; 
+    position: fixed;
     background-color: #421C1C;
     color: #75818E;
     width: 260px; 
     height: 700px;
-    left:20px;
+    left: 20px;
     top: 65px;
     box-shadow: 3px 3px 8px .5px;
     border-radius: 1em 0em;
-        border-top-left-radius: 0.5em;
-        border-top-right-radius: 0.5em;
-        border-bottom-right-radius: 0.5em;
-        border-bottom-left-radius: 0.5em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 1em;
     border-color: yellow;
     border-width: 15px;    
     padding: 1px;
@@ -112,10 +105,10 @@ li {
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+
 }
 
 .content_container {
-    overflow: scroll;
     z-index: -1;
     position: absolute;
     font-family: helvetica, sans-serif ;
@@ -138,7 +131,6 @@ li {
 
 
 .posts {
-    color: ;
     margin-left: 20px;
 }
 
@@ -159,6 +151,12 @@ p {
     color: green;
     font-size: 12px;
     line-height: 16px;
+    background-color: #07151c;
+    padding-left: -90px;
+    padding-top: 2px;
+    margin-left: 50px;
+    width: 470px;
+    
 }
 
 small {
@@ -174,6 +172,7 @@ small {
     padding-left: 45px;
     padding-top: 20px;
     padding-bottom: 10px;
-    width: 900px;
+    width: 100%;
     box-shadow: 3px 3px 8px .5px;
+    
 }
