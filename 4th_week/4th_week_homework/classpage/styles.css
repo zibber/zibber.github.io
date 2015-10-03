@@ -80,7 +80,7 @@ li {
     background-color: orange;
 }
 
-.sidebar div:hover{
+.sidebar:hover{
     z-index: 2;
     font-family: helvetica, sans-serif ;
     font-size: 16px;
@@ -109,7 +109,7 @@ li {
 
 }
 
-.content_container {
+.content{
     z-index: -1;
     position: absolute;
     font-family: helvetica, sans-serif ;
@@ -121,7 +121,7 @@ li {
     top: 70px;
     left: 70px;
 }
-.container_sidebar-sticky {
+.sidebar-sticky {
     left: 20px;
 }
 
