@@ -29,7 +29,7 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
 // part 1
 $("#pirate").hide();
 
-$("body").addClass("gradient")
+$("body").addClass("gradient");
 
 // part 2
 
@@ -38,24 +38,19 @@ $("#toggle").click(function() {
    $("#status").html("GO");
    $("#status").css("background-color","green") ;
    $("#toggle").html("Stop");
-   $("#cat").show();
    $("#status").mouseenter(function() {
-       $("#pirate").show();
-     })
-     $("#status").mouseleave(function() {
-       $("#pirate").hide();
-     })
+       $("#cat").show();
+     });
+   $("#status").mouseleave(function() {
+       $("#cat").hide();
+     });
+     confirm("YOU MAKE IT!");
+   prompt("Please grade here");
     } else {
    $("#status").html("STOP");
    $("#status").css("background-color","red");
    $("#toggle").html("Start");
    $("#cat").hide();
-   $("#status").mouseenter(function() {
-       $("#pirate").hide();
-     })
-     $("#status").mouseleave(function() {
-       $("#pirate").hide();
-     })
     }
     
 });
@@ -72,6 +67,25 @@ var img = 'img/pirate.gif';
 
 
 
+
+/*$("#toggle").click(function() {
+    if ($("#toggle").html() == "Start") {
+   $("#status").html("GO");
+   $("#status").css("background-color","green") ;
+   $("#toggle").html("Stop");
+   $("#status").mouseenter(function() {
+       $("#cat").show();
+   }
+   $("#status").mouseleave(function() {
+       $("#cat").hide();
+   }
+    } else {
+   $("#status").html("STOP");
+   $("#status").css("background-color","red");
+   $("#toggle").html("Start");
+});
+
+*/
 
 // part 3
 
@@ -117,3 +131,25 @@ var img = 'img/pirate.gif';
 $("body").addClass("#cat")
 
 */
+
+/*the answer
+
+var clickd = false;
+
+$("#toggle").click(function() {
+    if (click == false) {
+    $("#status").html("GO");
+    $("#status").css("background-color","green");
+    $(this).html("Stop"); /* 'this' target the element the user using 
+    console.log("You click the button...");
+    clicked = true;
+    } else { 
+        $("#status").html("STOP");
+        $("#status").css("background-color","red");
+        $(this).html("GO");
+        clicked = false
+        
+        
+    }
+    
+});*/
