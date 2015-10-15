@@ -1,0 +1,110 @@
+.onecube {
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+		
+}
+.cube {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border-radius: 100%;
+	position: absolute;
+}
+
+
+.action {
+	opacity: 0;
+	z-index: 100;
+	position: absolute;
+	background-color: white;
+}
+
+#a101 {
+	left: 100px;
+	top: 100px;
+	background-color: green;
+}
+#a102 {
+	left: 200px;
+	top: 100px;
+}
+#a103 {
+	left: 300px;
+	top: 100px;
+}
+#a201 {
+	left: 100px;
+	top: 200px;
+}
+#a202 {
+	left: 200px;
+	top: 200px;
+}
+#a203 {
+	left: 300px;
+	top: 200px;
+}
+#a301 {
+	left: 100px;
+	top: 300px;
+}
+#a302 {
+	left: 200px;
+	top: 300px;
+}
+#a303 {
+	left: 300px;
+	top: 300px;
+}
+
+#a1 {
+	left: 115px;
+	top: 100px;
+	width: 70px;
+	height: 300px;
+}
+#a2 {
+	left: 215px;
+	top: 100px;
+	width: 70px;
+	height: 300px;
+}
+#a3 {
+	left: 315px;
+	top: 100px;
+	width: 70px;
+	height: 300px;
+}
+
+#a4 {
+	left: 100px;
+	top: 115px;
+	width: 300px;
+	height: 70px;
+	
+}
+#a5 {
+	left: 100px;
+	top: 215px;
+	width: 300px;
+	height: 70px;
+}
+#a6 {
+	left: 100px;
+	top: 315px;
+	width: 300px;
+	height: 70px;
+}
+
+html {
+	margin: 0;
+	height: 100%;
+	
+	-webkit-transition: background 1.5s ease;
+	transition: background 1.5s ease;
+}
+
