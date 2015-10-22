@@ -44,6 +44,7 @@ var color = ["red","blue","yellow","green","orange","gray"];
      
 $( ".action" ).mouseenter(function() {
     $( this ).css("opacity","0.3");
+
 });
 
 
