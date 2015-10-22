@@ -40,7 +40,6 @@ var color = ["red","blue","yellow","green","orange","gray"];
  $( "#a302" ).css("background-color",color[Math.floor(Math.random()*color.length)]);
  $( "#a303" ).css("background-color",color[Math.floor(Math.random()*color.length)]);
  
- 
 
      
 $( ".action" ).mouseenter(function() {

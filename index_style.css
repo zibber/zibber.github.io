@@ -38,11 +38,9 @@ a {
 
 .sections {
     color: orange;
-    background-color: #34618E;
-    width: 100%;
     margin: 2px;
     position: relative;
-    left: -50px;
+    left: -40px;
     margin-bottom: 10px;
     padding: 10px 60px;
 }
@@ -71,6 +69,8 @@ ul {
     
 }
 
-h6 {
-    position: ;
+
+body {
+    padding-left: 100px;
+    padding-right: 100px;
 }
