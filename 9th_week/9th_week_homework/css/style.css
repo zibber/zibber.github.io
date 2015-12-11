@@ -280,3 +280,27 @@ html {
 
 }*/
 
+/*----------home key--------*/
+.home {
+	text-decoration: none;
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
+/*----------the cube game--------*/
+.game {
+	clear: both;
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+.ins {
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	font-size: 18px;
+	color: #757474;
+	padding: 15px;
+}
