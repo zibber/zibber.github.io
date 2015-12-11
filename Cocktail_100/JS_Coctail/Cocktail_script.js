@@ -17,11 +17,11 @@ function gLink()
    var wLink=get_random();
 
     var link=new Array()
-     link[0]="http://www.google.com";
-     link[1]="http://www.msn.com";
-     link[2]="http://www.yahoo.com";   
-     link[3]="http://www.ebay.com";
-     link[4]="http://www.cnn.com";
+     link[0]="http://zibber.github.io/Cocktail_100/Cocktail_s/Cocktail_Brandy_BetweenTheSheets.html";
+     link[1]="http://zibber.github.io/Cocktail_100/Cocktail_s/Cocktail_Brandy_BetweenTheSheets.html";
+     link[2]="http://zibber.github.io/Cocktail_100/Cocktail_s/Cocktail_Brandy_BetweenTheSheets.html";   
+     link[3]="http://zibber.github.io/Cocktail_100/Cocktail_s/Cocktail_Brandy_BetweenTheSheets.html";
+     link[4]="http://zibber.github.io/Cocktail_100/Cocktail_s/Cocktail_Brandy_BetweenTheSheets.html";
   
    window.location = (link[wLink]);
 }
