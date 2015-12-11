@@ -17,11 +17,11 @@ function gLink()
    var wLink=get_random();
 
     var link=new Array()
-     link[0]="Cocktail_s/Cocktail_Brandy_BetweenTheSheets.html";
-     link[1]="Cocktail_s/Cocktail_Brandy_BrandyAlexander.html";
-     link[2]="Cocktail_s/Cocktail_Brandy_BrandyDaisy.html";   
-     link[3]="Cocktail_s/Cocktail_Brandy_CorpseReviver.html";
-     link[4]="Cocktail_s/Cocktail_Brandy_Eggnog.html";
+     link[0]="Cocktail_s/Brandy/Cocktail_Brandy_BetweenTheSheets.html";
+     link[1]="Cocktail_s/Brandy/Cocktail_Brandy_BrandyAlexander.html";
+     link[2]="Cocktail_s/Brandy/Cocktail_Brandy_BrandyDaisy.html";   
+     link[3]="Cocktail_s/Brandy/Cocktail_Brandy_CorpseReviver.html";
+     link[4]="Cocktail_s/Brandy/Cocktail_Brandy_Eggnog.html";
   
    window.location = (link[wLink]);
 }
