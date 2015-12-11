@@ -473,8 +473,29 @@ input[type="text"]:hover {
 .copycolor {
     background-color: #;
 }
+.amaretto {
+    background-color: #C15029;
+}
+.orange {
+    background-color: orange;
+}
+.sloeGin {
+    background-color: #3A1025;
+}
+.southernComfort {
+    background-color: #5B1D3C;
+}
+.maraschino {
+    background-color: #89B741;
+}
+.stout {
+    background-color: #56371F;
+}
 .whitePeachPuree {
     background-color: #E29C79;
+}
+.peach {
+    background-color: #EA966C;
 }
 .sugar {
     background-color: white;
