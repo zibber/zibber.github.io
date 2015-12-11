@@ -423,28 +423,58 @@ input[type="text"]:hover {
 .champagneB {
     background-color: #D8CC98;
 }
+.champagneT {
+    border-bottom: solid 1px #D8CC98;
+    padding: 10px;
+}
 .ginB {
     background-color: #86C366;
+}
+.ginT {
+    border-bottom: solid 1px #86C366;
+    padding: 10px;
 }
 .rumB {
     background-color: #6B2F8D;
 }
+.rumT {
+    border-bottom: solid 1px #6B2F8D;
+    padding: 10px;
+}
 .tequlaB {
     background-color: #EBC650;
+}
+.tequlaT {
+    border-bottom: solid 1px #EBC650;
+    padding: 10px;
 }
 .vodkaB {
     background-color: #324E9F;
 }
+.vodkaT {
+    border-bottom: solid 1px #324E9F;
+    padding: 10px;
+}
 .whiskeyB {
     background-color: #540D25;
+}
+.whiskeyT {
+    border-bottom: solid 1px #540D25;
+    padding: 10px;
 }
 .liqueursB {
     background-color: #888888;
 }
-
+.liqueursT {
+    border-bottom: solid 1px #888888;
+    padding: 10px;
+}
 /*------------ingredients graph-------------*/
 .copycolor {
     background-color: #;
+}
+.whitePeachPuree {
+    background-color: #E29C79;
 }
 .sugar {
     background-color: white;
