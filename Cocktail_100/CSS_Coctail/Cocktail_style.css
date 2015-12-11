@@ -25,11 +25,17 @@ body {
     width: 400px;
     margin: 0 auto;
     margin-top: 10%;
+    margin-bottom: 100px;
 }
 .highlight:hover {
     background-color: #D3D3D3;
     cursor: pointer;
     color: black;
+}
+.highlight {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .subtitles {
@@ -547,4 +553,12 @@ a.social {
 }
 a {
     text-decoration: none;
+}
+a:visited {
+     text-decoration: none;  
+}
+a.social:hover {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 10pt;
 }
