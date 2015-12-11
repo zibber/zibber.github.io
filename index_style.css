@@ -48,7 +48,6 @@ a {
 ul {
     background-color: #34618E;
     position: relative;
-    height: 720px;
     top: -20px;
     padding-top: 10px;
     width: 100%;
@@ -75,3 +74,6 @@ body {
     padding-right: 100px;
 }
 
+.pushUp {
+    padding-bottom: 10px;
+}
