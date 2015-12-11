@@ -1,0 +1,282 @@
+.onecube {
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -150px;
+		
+}
+.cube {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border-radius: 100%;
+	position: absolute;
+}
+
+
+.action {
+	opacity: 0;
+	z-index: 100;
+	position: absolute;
+	background-color: white;
+}
+
+#a101 {
+	left: 0;
+	top: 0;
+	background-color: green;
+}
+#a102 {
+	left: 100px;
+	top: 0;
+}
+#a103 {
+	left: 200px;
+	top: 0px;
+}
+#a201 {
+	left: 0px;
+	top: 100px;
+}
+#a202 {
+	left: 100px;
+	top: 100px;
+}
+#a203 {
+	left: 200px;
+	top: 100px;
+}
+#a301 {
+	left: 0px;
+	top: 200px;
+}
+#a302 {
+	left: 100px;
+	top: 200px;
+}
+#a303 {
+	left: 200px;
+	top: 200px;
+}
+
+#a1 {
+	left: 0px;
+	top: -50px;
+	width: 100px;
+	height: 400px;
+}
+#a2 {
+	left: 100px;
+	top: -50px;
+	width: 100px;
+	height: 400px;
+}
+#a3 {
+	left: 200px;
+	top: -50px;
+	width: 100px;
+	height: 400px;
+}
+
+#a4 {
+	left: -50px;
+	top: 0px;
+	width: 400px;
+	height: 100px;
+	
+}
+#a5 {
+	left: -50px;
+	top: 100px;
+	width: 400px;
+	height: 100px;
+}
+#a6 {
+	left: -50px;
+	top: 200px;
+	width: 400px;
+	height: 100px;
+}
+
+html {
+	margin: 0;
+	height: 100%;
+	
+	-webkit-transition: background 1.5s ease;
+	transition: background 1.5s ease;
+}
+
+#b1 {
+    border-bottom: none;
+    border-top: 50px solid black;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -125px;
+	position: absolute;
+}
+
+#b2 {
+    border-bottom: none;
+    border-top: 50px solid black;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -25px;
+	position: absolute;
+}
+
+#b3 {
+    border-bottom: none;
+    border-top: 50px solid black;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: 75px;
+	position: absolute;
+}
+
+#b4 {
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-right: 50px solid black;
+    border-left: none;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: -125px;
+	margin-left: 150px;
+	position: absolute;
+}
+
+#b5 {
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-right: 50px solid black;
+    border-left: none;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: 150px;
+	position: absolute;
+}
+
+#b6 {
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-right: 50px solid black;
+    border-left: none;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: 75px;
+	margin-left: 150px;
+	position: absolute;
+}
+
+#b7 {
+    border-bottom: 50px solid black;
+    border-top: none;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: 150px;
+	margin-left: 75px;
+	position: absolute;
+}
+
+#b8 {
+    border-bottom: 50px solid black;
+    border-top: none;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: 150px;
+	margin-left: -25px;
+	position: absolute;
+}
+
+#b9 {
+    border-bottom: 50px solid black;
+    border-top: none;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: 150px;
+	margin-left: -125px;
+	position: absolute;
+}
+
+#b10 {
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-right: none;
+    border-left: 50px solid black;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: 75px;
+	margin-left: -200px;
+	position: absolute;
+}
+
+#b11 {
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-right: none;
+    border-left: 50px solid black;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -200px;
+	position: absolute;
+}
+
+#b12 {
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-right: none;
+    border-left: 50px solid black;
+    width:0;
+    top: 50%;
+	left: 50%;
+	margin-top: -125px;
+	margin-left: -200px;
+	position: absolute;
+}
+
+.triangle:hover {
+	background-color: red;
+	opacity: 0.5;
+}
+
+
+/*@media only screen and (max-width : 900px) {
+	.cube {
+		width: 50px;
+		height: 50px;
+	}
+
+}*/
+
