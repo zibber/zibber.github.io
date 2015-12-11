@@ -1,0 +1,550 @@
+/*.backgroundIMG {
+    background: url(../CocktailIMG/blackTransWoodBackground.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+    -maz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+.whiteText {
+    color: white;
+}
+/*-----------Cocktail_100.html(home page)------------*/
+body {
+    background-color: #111111;
+}
+.logoSize {
+    width: 400px;
+    position: relative;
+    top: 50px;
+}
+.logo {
+    height: 265px;
+}
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.highlight:hover {
+    background-color: #D3D3D3;
+    cursor: pointer;
+    color: black;
+}
+
+.subtitles {
+    text-align: left;
+    font-size: 23px;
+    line-height: 19px;
+    font-family: arial, sans-serif;
+    font-weight: lighter;
+    margin-left: -10px;
+}
+input[type="text"], textarea {
+  background-color: rgba(0,0,0,0.0);
+  border: 1px solid rgba(0,0,0,0.0);
+  border-bottom-color: #707070;
+  width: 350px;
+  margin-bottom: -10px;
+}
+input[type="text"]:hover {
+    border: 1px solid #707070;
+    border-top-color: #666666;
+}
+.pretype {
+    text-align: left;
+    font-size: 23px;
+    line-height: 19px;
+    font-family: arial, sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+}
+/* .search_icon {
+    position: ;
+    top: 45%;
+    left: 74%;
+}
+*/
+
+/*---------------Cocktail sup page (frame)------------------*/
+.cocktailTypeWaper {
+    padding-top: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    font-weight: 900;
+}
+.colorBarContainer {
+    height: 20px;
+    width: 30px;
+}
+.colorBar {
+    height: 10px;
+    width: 20px;
+    color: white;
+}
+.cocktailType {
+    float: left;
+}
+.aboutWaper {
+    margin-top: 50px;
+    font-size: 19px;
+}
+.title {
+    color: white;
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+    height: 20px;
+    width: 300px;
+}
+.text {
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Georgia, serif;
+}
+.aboutParagaph {
+    margin-top: 5px;
+    color: #747474;
+    font-size: 33px;
+    width: 510px;
+    font-weight: 900;
+    line-height: 110%;
+}
+.keyIngrediantsWaper {
+    padding-top: 100px;
+}
+.keyTitleWaper {
+    margin-left: 200px;
+}
+.colorLine {
+    margin-top: 3px;
+    height: 1px;
+}
+.graphic {
+    float: left;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+}
+.colorCube {
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: -40px;
+}
+.ingrediantsWaper {
+    width: 450px;
+    float: left;
+    padding-left: 50px;
+}
+
+.table {
+    border-bottom: solid 1px #E65A39;
+    padding: 10px;
+}
+.ingrediants {
+    color: #747575;
+    font-size: 20px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+.measure {
+    color: white;
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 100;
+}
+.timeRequiredWaper {
+    width: 610px;
+    padding-top: 100px;
+    float: left
+}
+.timeTitleWaper {
+    padding: 0px;
+}
+.socialLink {
+    text-align: center;
+}
+.timeText {
+    padding-top: 10px;
+    font-size: 32px;
+    color: #747474;
+    font-weight: 900;
+}
+/*.bars {
+    height: 5px;
+    background-color: #E65A39;
+}*/
+.mins {
+    color: #E2E1E1;
+}
+.instructionsWaper {
+    padding-top: 100px;
+    margin-left: 205px;
+    width: 610px;
+    color: white;
+    clear: both;
+}
+.instructionsText {
+    font-size: 20px;
+    font-family: georgia, serif;
+    color: #747575;
+    padding-top: 10px;
+    line-height: 25px;
+}
+.instructionsNum {
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
+/*---------------Cocktail cataglog page------------------*/
+.pageWaper {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #111111;
+}
+.headBar {
+    margin-top: -8px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color: black;
+    height: 28px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    opacity: 0.9;
+}
+.cocktailHeader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
+    opacity: 1;
+}
+.titleTag {
+    color: white;
+    font-size: 19px;
+    padding-bottom: 5px;
+    padding-top: 60px;
+}
+.justUncap {
+    font-family: arial, sans-serif;
+    font-size: 15;
+}
+.whiteBar {
+    background-color: white;
+    height: 1px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.h1 {
+    font-weight: bold;
+}
+.catalogWaper {
+    margin-top: 30px;
+}
+.drinkList {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 5px;
+}
+.drinkTypesWaper {
+    width: 290px;
+    color: white;
+    overflow: hidden;
+}
+.catalogList {
+    height: 50px;
+    padding-top: 20px;
+    font-weight: 900;
+    text-align: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Arial Black",sans-serif;
+    width: 140px;
+}
+.verticalLine {
+    float: right;
+    width: 1px;
+    height: 68px;
+}
+.fillUpBox {
+    float: right;
+    height: 68px;
+    width: 129px;
+}
+.middleLine {
+    height: 560px;
+    background-color: #E65A39;
+    font-size: 0px;
+    width: 1px;
+}
+.drinkCatalogsWaper {
+    float: right;
+    width: 510px;
+    color: #707070;
+}
+.catalogNumber {
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+}
+.catalogDrink {
+    font-size: 32px;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    text-align: left;
+    margin-left: 30px;
+    border: 1px solid rgba(0,0,0,0.0);
+    border-bottom-color: #707070;
+}
+.arrow {
+    font-weight: 100;
+    color: white;
+    float: right;
+    font-size: 25px;
+}
+/*-------------------------Result page------------------------------*/
+.resultTitleWaper {
+    padding-top: 35px;
+}
+.resultKeyWord {
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #747575;
+}
+.keyWord {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.resultList {
+    margin-left: 320px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 5px;
+}
+.resultTypesWaper {
+    width: 150px;
+    color: white;
+}
+.resultDrinkList {
+    height: 50px;
+    font-weight: 900;
+    text-align: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Arial Black",sans-serif;
+    width: 140px;
+}
+/*----------------------footer--------------*/
+.footer {
+    padding-top: 100px;
+    margin: 0 auto;
+    color: #707070;
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+    
+}
+.social {
+    float: left;
+    margin-bottom: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+.Junhao {
+    font-size: 8pt;
+    text-align: center;
+    color: #707070;
+    padding-bottom: 50px;
+}
+/*------------back to top buttom-------*/
+.toTop {
+    position: fixed;
+    transform: rotate(90deg);
+    font-family: Georgia, serif;
+    color: #707070;
+    height: 25px;
+    width: 70px;
+    font-size: 15px;
+    right: 0;
+    bottom: 50;
+}
+.toTopArrow {
+    font-size: 21px;
+    font-weight: 100;
+}
+/*------color--------*/
+.brandy {
+    color: #E65A39;
+}
+.champagne {
+    color: #D8CC98;
+}
+.gin {
+    color: #86C366;
+}
+.rum {
+    color: #6B2F8D;
+}
+.tequla {
+    color: #EBC650;
+}
+.vodka {
+    color: #324E9F;
+}
+.whiskey {
+    color: #540D25;
+}
+.liqueurs {
+    color: #888888;
+}
+/*------background color----*/
+.brandyB {
+    background-color: #E65A39;
+}
+.champagneB {
+    background-color: #D8CC98;
+}
+.ginB {
+    background-color: #86C366;
+}
+.rumB {
+    background-color: #6B2F8D;
+}
+.tequlaB {
+    background-color: #EBC650;
+}
+.vodkaB {
+    background-color: #324E9F;
+}
+.whiskeyB {
+    background-color: #540D25;
+}
+.liqueursB {
+    background-color: #888888;
+}
+
+/*------------ingredients graph-------------*/
+.copycolor {
+    background-color: #;
+}
+.sugar {
+    background-color: white;
+}
+.angosturaBitter {
+    background-color: #45511B;
+}
+.limeJuice {
+    background-color: #356002;
+}
+.bitters {
+    background-color: #2E3513;
+}
+.gingerAle {
+    background-color: #9DAA85;
+}
+.eggnog {
+    background-color: #EFE0CA;
+}
+.greenApple {
+    background-color: #A0BF6D;
+}
+.sweetVermouth {
+    background-color: #B28C59;
+}
+.appleBrandy {
+    background-color: #C16C6C;
+}
+.grenadine {
+    background-color: #8E0909;
+}
+.superfineSugar {
+    background-color: white;
+}
+.cherry {
+    background-color: #56173E;
+}
+.orange {
+    background-color: #F2942F;
+}
+.lightRumB {
+    background-color: #854F9B;
+}
+.tripleSecB {
+    background-color: #F29930;
+}
+.lemonJuiceB {
+    background-color: #F7CE6A;
+}
+.lemonB {
+    background-color: #F7CE6A;
+}
+.darkCremeDeCacao {
+    background-color: #BCAC96;
+}
+.groundNutmeg {
+    background-color: #683901;
+}
+.halfNhalf {
+    background-color: #D8CFC3;
+}
+/*--------------just shape-----------------*/
+.deco {
+    width: 20px;
+	height: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+    margin-bottom: 50%;
+    margin-top: 26px;
+    padding: 0px;
+}
+.cup {
+    height: 20px;
+    width: 200px;
+    
+}
+.cube {
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    margin-top: 26px;
+}
+.coverLeft {
+    float: left;
+    z-index: 90;
+    width: 0;
+	height: 0;
+	border-bottom: 100px solid #111111;
+	border-right: 100px solid transparent;
+}
+.coverRight {
+    float: left;
+    z-index: 90;
+    width: 0;
+	height: 0;
+	border-bottom: 100px solid #111111;
+	border-left: 100px solid transparent;
+}
+
+/*-------a class-------*/
+a.social {
+    color: #707070;
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+}
+a {
+    text-decoration: none;
+}
