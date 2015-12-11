@@ -1,17 +1,18 @@
-/*.backgroundIMG {
+.backgroundIMG {
     background: url(../CocktailIMG/blackTransWoodBackground.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
     -maz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-*/
+
 .whiteText {
     color: white;
 }
 /*-----------Cocktail_100.html(home page)------------*/
 body {
     background-color: #111111;
+    
 }
 .logoSize {
     width: 400px;
@@ -213,7 +214,7 @@ input[type="text"]:hover {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #111111;
+
 }
 .headBar {
     margin-top: -8px;
